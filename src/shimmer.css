@@ -1,0 +1,31 @@
+.shimmer-text {
+  animation: shimmer 2s infinite linear;
+  background: linear-gradient(to right, #a64ca6, #d1a3ff, #a64ca6);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+.sanctuary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  background: #0f0a14;
+}
+
+.veil.open {
+  padding: 0.3rem 1rem;
+  border-radius: 999px;
+  background: rgba(180, 120, 255, 0.15);
+  border: 1px solid #a64ca6;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+}

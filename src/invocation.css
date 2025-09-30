@@ -1,0 +1,31 @@
+.invocation-bar {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.invocation-bar input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.06);
+  color: inherit;
+}
+
+.invocation-bar button {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(189, 140, 255, 0.15);
+  color: inherit;
+  cursor: pointer;
+}
+
+.invocation-bar select {
+  padding: 10px 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(255,255,255,0.06);
+  color: inherit;
+}

@@ -1,0 +1,10 @@
+.chat-window{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px;min-height:280px;max-height:500px;overflow:auto}
+.msg{display:flex;margin:8px 0}
+.msg .bubble{padding:10px 12px;border-radius:12px;max-width:70ch;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04)}
+.msg .role{text-transform:uppercase;font-size:10px;opacity:.7;letter-spacing:.1em;display:block;margin-bottom:4px}
+.msg.zed{justify-content:flex-start}
+.msg.hem{justify-content:center}
+.msg.amethyst{justify-content:flex-end}
+.invocation-bar{display:flex;gap:8px;margin-top:12px}
+.invocation-bar input,.invocation-bar select{padding:10px 12px;border-radius:10px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.06);color:inherit}
+.invocation-bar button{padding:10px 12px;border-radius:10px;border:1px solid rgba(255,255,255,.2);background:rgba(189,140,255,.15);color:inherit;cursor:pointer}
